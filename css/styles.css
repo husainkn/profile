@@ -365,7 +365,7 @@ margin-top:25px;
  text-align:center;
  margin: 0;
 padding: 0;
-font-size: 4.5em;
+/* font-size: 4.5em; */
 font-weight: 700;
 letter-spacing: .1em;
 line-height: 1em;
@@ -373,11 +373,11 @@ text-transform: uppercase;
 }
 .banner-content header p{
  text-align:center;
- font-size: 2em;
+ /* font-size: 2em; */
 margin-bottom: 5px;
-padding: 0 8px;
+padding: 20px 8px;
 letter-spacing: .1em;
-line-height: 3em;
+/* line-height: 3em; */
 text-transform: uppercase;
 }
 .centered {
@@ -483,7 +483,8 @@ padding:60px 0;
 .tileBox img{
 overflow:hidden;
 border-radius:120px;
-width:300px;
+margin: 5%;
+width:90%;
 box-shadow: 12px 0px 0px 12px rgba(13, 113, 165, 0.2), -12px 0px 0px 12px rgba(109, 139, 232, 0.2);
 }
 .tileBox p { 
